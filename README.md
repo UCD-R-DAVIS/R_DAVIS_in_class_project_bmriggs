@@ -1,3 +1,3 @@
-Welcome to R-DAVIS! 
+Brock Riggs
 
-This is the 'README' file for your class repository -- a place where you can share notes for your project. Typically when you start a new project this can be a good place to provide an overview of what's happening in this R project. 
+Studying the relationship between Highly Pathogenic Avian Influenza (HPAI) between waterfowl, their environment, and commercial poultry.
