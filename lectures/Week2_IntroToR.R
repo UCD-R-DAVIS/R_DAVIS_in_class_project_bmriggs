@@ -37,3 +37,30 @@ char_logical <- c("a", "b", "c", TRUE)
 tricky <- c(1, 2, 3, "4")
 
 combined_logical <- c(num_char, num_logical, char_logical, tricky)
+
+#Subsetting
+
+animals <- c("mouse", "rat", "dog", "cat")
+animals
+
+animals[2]
+
+animals [c(2, 3)]
+
+animals [c(2, 2)]
+
+##conditional subsetting
+
+weight_g <- c(21, 34, 39, 54, 55)
+
+weight_g > 50
+
+weight_g[weight_g> 50]
+
+## Symobls
+
+# %in%
+
+animals %in% c("rat", "cat", "dog", "duck", "goat")
+
+animals == c("rat", "cat", "dog", "duck", "goat")
