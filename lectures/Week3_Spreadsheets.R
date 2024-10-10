@@ -35,9 +35,10 @@ surveys$genus
 surveys$hindfoot_length
 class(surveys$hindfoot_length)
 
+install.packages('tidyverse')
+library(tidyverse)
 
-
-
-
-
-
+?read.csv
+t_surveys <- read_csv('data/portal_data_joined.csv')
+class(t_surveys)
+t_surveys
