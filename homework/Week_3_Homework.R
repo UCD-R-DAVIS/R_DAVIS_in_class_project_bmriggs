@@ -15,8 +15,17 @@ surveys_base  ### -- visualize "surveys_base"
 
 ## -- Convert 'species_id and 'plot_type' to factors
 
+surveys_base$species_id <- factor(surveys_base$species_id)
 surveys_base$species_id 
+
+class(surveys_base$species_id)
+str(surveys_base$species_id)
+
+surveys_base$plot_type <- factor(surveys_base$plot_type)
 surveys_base$plot_type
+
+class(surveys_base$plot_type)
+str(surveys_base$plot_type)
 
 ## -- Remove NA's
 
